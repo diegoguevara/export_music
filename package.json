@@ -1,0 +1,19 @@
+{
+  "name": "export_music",
+  "version": "1.0.0",
+  "description": "A CLI to export files from a m3u playlist to a folder",
+  "main": "bin/index.js",
+  "bin": {
+    "export_music": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "m3u8-file-parser": "^0.2.4"
+  },
+  "author": "Diego Guevara",
+  "license": "MIT"
+}
